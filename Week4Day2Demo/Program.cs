@@ -21,8 +21,7 @@ namespace Week4Day2Demo
 
         private static void TestBall()
         {
-            var bouncyBallGame = new BouncyBallGame();
-            bouncyBallGame.ShowStartGameBanner();
+            BannerHelper.ShowStartGameBanner();
 
             var ball = new Ball(10, 5);
 
@@ -34,8 +33,7 @@ namespace Week4Day2Demo
 
         private static void TestBar()
         {
-            var bouncyBallGame = new BouncyBallGame();
-            bouncyBallGame.ShowStartGameBanner();
+            BannerHelper.ShowStartGameBanner();
 
             var bar = new Bar();
 
