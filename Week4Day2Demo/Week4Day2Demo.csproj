@@ -33,6 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Game\BannerHelper.cs" />
+    <Compile Include="Game\Ball.cs" />
+    <Compile Include="Game\Bar.cs" />
+    <Compile Include="Game\BouncyBallGame.cs" />
+    <Compile Include="Game\Point.cs" />
+    <Compile Include="Game\Score.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -47,5 +53,6 @@
       <HintPath>..\packages\WebUI.1.0.6.1\lib\net40\ClassLibrary1.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
